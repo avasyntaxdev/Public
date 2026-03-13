@@ -106,3 +106,61 @@ background:#1f3a5f;
 color:white;
 
 }
+.page-title{
+
+text-align:center;
+padding:40px;
+
+}
+
+.services{
+
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+padding:40px;
+
+}
+
+.service-card{
+
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+text-align:center;
+
+}
+
+.service-card img{
+
+width:100%;
+height:180px;
+object-fit:cover;
+
+}
+
+.service-card h3{
+
+margin:15px 0;
+
+}
+
+.price{
+
+color:#ff6b2d;
+font-weight:bold;
+
+}
+
+.service-card button{
+
+background:#1f3a5f;
+color:white;
+border:none;
+padding:10px 20px;
+margin:15px;
+border-radius:6px;
+cursor:pointer;
+
+}
